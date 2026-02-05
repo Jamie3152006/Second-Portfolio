@@ -1,0 +1,398 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(249, 243, 230);
+  position: relative;
+}
+
+.home-page-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 1000;
+  font-style: bold;
+  color: rgb(121, 18, 18);
+}
+
+.left-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.home-button a {
+  text-decoration: none;
+  color: rgb(121, 18, 18);
+}
+
+.right-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+#bottom-button {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 1000;
+  font-style: bold;
+}
+
+#about-page {
+  position: fixed;
+  top: 800px;
+  padding-right: 30px;
+  color: rgb(121, 18, 18);
+}
+
+#bottom-button a {
+  color: rgb(121, 18, 18);
+  text-decoration: none;
+}
+
+.drop-down-menu {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  top: 45px;
+  right: 53px;
+  display: none;
+}
+.menu-item {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: larger;
+  color: rgb(121, 18, 18);
+  display: block;
+  margin-top: 10px;
+}
+
+.drop-down-menu a {
+  text-decoration: none;
+}
+
+.flex-container iframe {
+  width: 1400px;
+  height: 1400px;
+  transform: scale(1.5);
+  transform-origin: center, center;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+.flex-container2 iframe {
+  width: 500px;
+  height: 500px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  transform: scale(1.3);
+}
+.flex-container3 iframe {
+  width: 600px;
+  height: 600px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+.flex-container4 iframe {
+  width: 500px;
+  height: 900px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.flex-container5 iframe {
+  width: 400px;
+  height: 400px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 192px;
+  left: 80px;
+  transform: scale(1.55);
+}
+.flex-container6 iframe {
+  width: 400px;
+  height: 400px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 192px;
+  left: 80px;
+  transform: scale(1.55);
+}
+.flex-container7 iframe {
+  width: 400px;
+  height: 400px;
+  transform-origin: 0%;
+  padding: 0;
+  position: absolute;
+  top: 192px;
+  left: 80px;
+  transform: scale(1.55);
+}
+
+.lost,
+.rand,
+.clock,
+.corpse,
+.illusion,
+.data,
+.game {
+  width: 400px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: block;
+}
+.flex-container iframe {
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+}
+.flex-container2 iframe {
+  width: 500px;
+  height: 500px;
+  aspect-ratio: 1/1;
+  left: 0;
+  padding-bottom: 50px;
+}
+.flex-container3 iframe {
+  width: 600px;
+  height: 600px;
+  aspect-ratio: 1/1;
+  left: 0;
+}
+.flex-container4 iframe {
+  width: 500px;
+  height: 900px;
+  aspect-ratio: 1/1;
+  left: 0;
+}
+.flex-container5 iframe {
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+  left: 0;
+}
+.flex-container6 iframe {
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+  left: 0;
+}
+.flex-container7 iframe {
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+  left: 0;
+}
+
+.iframe-container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 90px;
+}
+.iframe-container iframe {
+  width: auto;
+  /* height: 1200px; */
+  /* transform: scale(2); */
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  position: absolute;
+  /* top: 260px; */
+  padding-bottom: 50px;
+}
+
+.iframe-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.flex-container,
+.flex-container2,
+.flex-container3,
+.flex-container4,
+.flex-container5,
+.flex-container6,
+.flex-container7 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding: 30px;
+  margin: 40px;
+  justify-content: left;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.lost {
+  top: 200px;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 990px;
+}
+
+#description {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 670px;
+  padding-top: 398px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 850px;
+  padding-top: 30px;
+  color: rgb(121, 18, 18);
+}
+
+#description2 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 675px;
+  padding-top: 505px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title2 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 780px;
+  padding-top: 30px;
+  color: rgb(121, 18, 18);
+}
+
+#description3 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 670px;
+  padding-top: 400px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title3 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 810px;
+  padding-top: 2px;
+  color: rgb(121, 18, 18);
+}
+
+#description4 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 630px;
+  padding-top: 680px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title4 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 810px;
+  padding-top: 2px;
+  color: rgb(121, 18, 18);
+}
+
+#description5 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 670px;
+  padding-top: 303px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title5 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 810px;
+  padding-top: 2px;
+  color: rgb(121, 18, 18);
+}
+
+#description6 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 670px;
+  padding-top: 303px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title6 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 838px;
+  padding-top: 2px;
+  color: rgb(121, 18, 18);
+}
+
+#description7 {
+  flex-wrap: wrap;
+  width: 730px;
+  position: absolute;
+  left: 670px;
+  padding-top: 353px;
+  font-family: Mingzat;
+  font-size: 22px;
+  color: rgb(121, 18, 18);
+}
+
+#title7 {
+font-family: Mingzat;
+  font-size: 46px;
+  position: absolute;
+  left: 838px;
+  padding-top: 2px;
+  color: rgb(121, 18, 18);
+}

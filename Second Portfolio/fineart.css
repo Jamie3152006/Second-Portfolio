@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(249, 243, 230);
+  position: relative;
+}
+
+.home-page-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 1000;
+  font-style: bold;
+  color: rgb(121, 18, 18);
+}
+
+.left-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.home-button a {
+  text-decoration: none;
+  color: rgb(121, 18, 18);
+}
+
+.right-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+#bottom-button {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 1000;
+  font-style: bold;
+}
+
+#about-page {
+  position: fixed;
+  top: 800px;
+  padding-right: 30px;
+  color: rgb(121, 18, 18);
+  z-index: 400;
+}
+
+#bottom-button a {
+  color: rgb(121, 18, 18);
+  text-decoration: none;
+}
+
+.drop-down-menu {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  top: 45px;
+  right: 53px;
+  display: none;
+  z-index: 50;
+}
+.menu-item {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: larger;
+  color: rgb(121, 18, 18);
+  display: block;
+  margin-top: 10px;
+  z-index: 49;
+}
+
+.drop-down-menu a {
+  text-decoration: none;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    width: min-content;
+    object-fit: cover;
+    gap: 350px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    padding: 10px;
+}
+
+.grid-item img {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: auto;
+    justify-content: space-around;
+    position: absolute;
+
+}
+
+.grid-item-11 {
+    transform: scale(0.79);
+}
