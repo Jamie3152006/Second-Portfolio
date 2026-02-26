@@ -17,7 +17,7 @@ function preload() {
 function setup() { 
   background(255,183,197);
   angleMode(DEGREES);
-  canvas = createCanvas(790, windowHeight);
+  canvas = createCanvas(790, 700);
   canvas.parent("sketch-container");
   dots = font.textToPoints('peace', -16, -20, 130,
                           {sampleFactor: 0.45,
