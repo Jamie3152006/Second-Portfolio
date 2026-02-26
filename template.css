@@ -165,7 +165,7 @@ a {
   top: 300px;
   left: 100px;
   width: 600px;
-  height: 643px;
+  height: 600px;
   aspect-ratio: 1/1;
 }
 
@@ -174,7 +174,7 @@ a {
   top: 400px;
   left: 900px;
   width: 400px;
-  height: 443px;
+  height: 400px;
   aspect-ratio: 1/1;
   transform: scale(1.47);
 }
